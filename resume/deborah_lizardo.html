@@ -10,41 +10,98 @@
             margin: 40px;
             line-height: 1.6;
             color: #333;
+            background-color: #f4f4f9;
         }
-        h1, h2 {
+
+        h1 {
+            color: #fff;
+            background-color: #ab0590;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        h2 {
             color: #ab0590;
+            font-size: 1.5em;
         }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #ab0590;
+            padding-bottom: 10px;
+        }
+
         ul {
             list-style-type: none;
             padding-left: 0;
         }
+
         li {
             margin-bottom: 10px;
         }
-        .section {
-            margin-bottom: 20px;
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
         }
-        .contact-info, .skills, .education, .projects, .activities {
-            margin-bottom: 15px;
+
+        .contact-info p {
+            margin: 5px;
         }
-        .activities ul {
+
+        .contact-info a {
+            text-decoration: none;
+            color: #ab0590;
+            font-weight: bold;
+        }
+
+        .skills ul, .projects ul, .activities ul {
             margin-top: 10px;
         }
+
+        .skills li, .projects li, .activities li {
+            font-size: 1.1em;
+        }
+
+        .activities ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
         .activities li ul {
             margin-top: 5px;
         }
+
+        .skills, .projects, .activities, .education {
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
     </style>
 </head>
 <body>
     <h1>Deborah Santos Lizardo</h1>
-    <h2>Bachelor's Degree in Computer Science - 3rd Semester (Morning)</h2>
-    <p><strong>Pontifical Catholic University of Paraná (PUCPR)</strong><br>Expected Graduation: November 2028</p>
-
-    <div class="section">
-        <h2>Objective</h2>
-        <p>Seeking an internship in IT, computational logic, and requirements engineering, with a focus on real-world problem-solving and innovative solutions.</p>
+    <div class="contact-info">
+        <p>Curitiba, Paraná | <a href="mailto:deborah.slizardoo@gmail.com">deborah.slizardoo@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/deborah-santos-lizardo" target="_blank">Deborah Santos Lizardo</a> | 
+        GitHub: <a href="https://github.com/Deborah-Lizardo" target="_blank">Deborah-Lizardo</a></p>
     </div>
-
     <div class="section">
         <h2>Education</h2>
         <div class="education">
@@ -54,14 +111,33 @@
             </ul>
         </div>
     </div>
-
     <div class="section">
         <h2>Technical Skills</h2>
         <div class="skills">
             <ul>
-                <li><strong>Programming Languages:</strong> Python (Basic), HTML5, CSS, JavaScript (Basic)</li>
-                <li><strong>Languages:</strong> English: C1 (Advanced/Fluent), Spanish: B2 (Fluent)</li>
+                <li><strong>Programming Languages:</strong>
+                    <ul>
+                        <li>Python (Basic)</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript (Basic)</li>
+                        <li>C (Basic)</li>
+                        <li>JSON (Basic)</li>
+                    </ul>
+                </li>
+                <li><strong>Languages:</strong> 
+                    <ul>
+                        <li>English: C1 (Advanced/Fluent)</li>
+                        <li>Spanish: B2 (Fluent)</li>
+                    </ul>
+                </li>
                 <li><strong>Office Tools:</strong> Microsoft Office (Advanced)</li>
+                <li><strong>Tools:</strong>
+                    <ul>
+                        <li>Bizzagi Modeler (Basic)</li>
+                        <li>SQL (Basic)</li>
+                    </ul>
+                </li>
                 <li><strong>Certifications:</strong> 
                     <ul>
                         <li>Currently attending Lean Six Sigma White Belt | FM2S (2025)</li>
@@ -71,6 +147,10 @@
                 </li>
             </ul>
         </div>
+    </div>
+    <div class="section">
+        <h2>Objective</h2>
+        <p>Seeking an internship in IT, computational logic, and requirements engineering, with a focus on real-world problem-solving and innovative solutions.</p>
     </div>
 
     <div class="section">
@@ -83,7 +163,6 @@
             </ul>
         </div>
     </div>
-
     <div class="section">
         <h2>Extracurricular Activities</h2>
         <div class="activities">
@@ -91,12 +170,36 @@
                 <li><strong>Xtremers Cheerleading Team - PUCPR (2024):</strong> Selected for and participated in one of the top cheerleading teams in the region.</li>
                 <li><strong>Academic Week - Poliweek (2024):</strong> Participated in Polytechnic Academic Week events.</li>
                 <li><strong>CyberSec Week - PUCPR (2024):</strong> Attended Cybersecurity Week seminars.</li>
-                <li><strong>Lecture:</strong> "From Swarms to Stars: Innovation through First Principles" by Aurélio Rosa from Tesla (2024).</li>
-                <li><strong>XXII Philosophy Congress at PUCPR (2024):</strong>
+                <li><strong>Lecture and Minicourses:</strong>
                     <ul>
                         <li><strong>Minicourse:</strong> "Artificial Intelligence and its Impact on Education"</li>
                         <li><strong>Lecture:</strong> "AI as Human Alter Ego: AI Governance and Self-governance"</li>
                         <li><strong>Lecture:</strong> "De-metaphorizing Technology: Towards a Lexical Ecology of the Artificial"</li>
+                    </ul>
+                </li>
+                <li><strong>Semana Acadêmica da Escola Politécnica - Poliweek (2024):</strong> Participated in the Polytechnic School Academic Week.</li>
+                <li><strong>CyberSec Week - PUCPR (2024):</strong> Attended seminars and workshops about Cybersecurity.</li>
+                <li><strong>Rocket Summit 2024:</strong> 
+                    <ul>
+                        <li><strong>Palestra:</strong> "Educação 4D"</li>
+                        <li><strong>Palestra:</strong> "Conectando empresas ao futuro por meio da I.A"</li>
+                        <li><strong>Palestra:</strong> "Mesa Rocket: Filhos da PUCPR"</li>
+                        <li><strong>Palestra:</strong> "O poder transformador das startups"</li>
+                        <li><strong>Palestra:</strong> "O mundo já está sem fronteiras"</li>
+                        <li><strong>Palestra:</strong> "Felicidade no Trabalho"</li>
+                    </ul>
+                </li>
+                <li><strong>XXVII Ibero-American Conference on Software Engineering (CIbSE 2024):</strong>
+                    <ul>
+                        <li><strong>Tutorial:</strong> "Process Mining: Fundamentals, Applications and Tools"</li>
+                        <li><strong>Tutorial:</strong> "Design Thinking at Stage Zero: User Requirements and Needs"</li>
+                    </ul>
+                </li>
+                <li><strong>XXII Congresso de Filosofia da PUCPR (2024):</strong>
+                    <ul>
+                        <li><strong>Minicurso:</strong> "A inteligência artificial e seus impactos na educação"</li>
+                        <li><strong>Palestra:</strong> "A IA como alter ego humano: Governança da IA autogovernança"</li>
+                        <li><strong>Palestra:</strong> "De-metaphorizing Technology: Towards a Lexical Ecology of the Artificial"</li>
                     </ul>
                 </li>
             </ul>
